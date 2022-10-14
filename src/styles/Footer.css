@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--secondary) !important;
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.github,
+.linked-in,
+.facebook {
+    padding: 20px;
+}
+
+svg {
+    color: var(--secondary);
+    height: 50px;
+    width: 50px;
+}
