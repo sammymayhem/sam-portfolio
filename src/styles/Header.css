@@ -1,4 +1,5 @@
 .header {
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -25,4 +26,10 @@
 
 .navbar-brand {
     font-size: 40px !important;
+}
+
+.navbar-brand {
+    font-family: 'Lobster' !important;
+    border-style: dashed;
+    margin-left: 6px !important;
 }

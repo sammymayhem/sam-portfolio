@@ -4,11 +4,17 @@
 }
 
 #home-text-1 {
-    font-size: 40px;
-    font-family: 'Manrope';
+    font-size: 100px;
+    font-family: 'Lobster';
 }
 
 #home-text-2 {
-    font-size: 80px;
-    font-family: 'Abril Fatface';
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+}
+
+#home-text-3 {
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+
 }
