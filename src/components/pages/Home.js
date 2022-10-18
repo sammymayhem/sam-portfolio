@@ -5,7 +5,7 @@ function Home() {
         <div>
             <div id='home-text'>
                 <h1 id='home-text-1'>Sam Wallace.</h1>
-                <h2 id='home-text-2'>Front End Web Developer kinda guy.</h2>
+                <h2 id='home-text-2'> A Front End Web Developer kinda guy.</h2>
             </div>
         </div>
     );

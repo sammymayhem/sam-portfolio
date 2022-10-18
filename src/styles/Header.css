@@ -11,6 +11,7 @@
 
 .navbar {
     background-color: var(--secondary) !important;
+    box-shadow: 1px 10px 8px #888888;
 }
 
 .navbar>.container {
@@ -22,6 +23,18 @@
     color: var(--primary);
     text-decoration: none;
     font-size: 20px;
+}
+
+#nav-link:hover {
+    border-bottom: dotted 3px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+    width: 0%;
+}
+
+#nav-link:hover::after {
+    border-bottom: dotted 3px;
+    width: 100%;
 }
 
 .navbar-brand {
