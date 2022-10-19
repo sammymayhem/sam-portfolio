@@ -26,15 +26,8 @@
 }
 
 #nav-link:hover {
-    border-bottom: dotted 3px;
-    transition-timing-function: ease-in;
-    transition: 0.5s;
-    width: 0%;
-}
-
-#nav-link:hover::after {
-    border-bottom: dotted 3px;
-    width: 100%;
+    border: dashed 2px;
+    padding: 8px 18px;
 }
 
 .navbar-brand {
@@ -42,6 +35,9 @@
 }
 
 .navbar-brand {
+    padding: 10px 20px;
+    color: var(--primary);
+    font-size: 20px;
     font-family: 'Lobster' !important;
     border-style: dashed;
     margin-left: 6px !important;

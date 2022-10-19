@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
-import Contact from './components/pages/Contact';
+import Skills from './components/pages/Skills';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='projects' element={<Projects />} />
-            <Route path='contact' element={<Contact />} />
+            <Route path='contact' element={<Skills />} />
           </Routes>
         </div>
         <Footer />
