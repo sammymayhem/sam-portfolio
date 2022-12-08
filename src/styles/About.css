@@ -1,0 +1,42 @@
+:root {
+    --primary: #EFEAE0;
+    --secondary: #ae2012;
+}
+
+.about {
+    display: flexbox;
+}
+
+.about-title {
+    font-family: 'Lobster';
+    font-size: 100px;
+    padding: 20px 0px 0px 80px;
+}
+
+.about-text {
+    display: flex;
+    padding-top: 10px;
+    text-align: left;
+    padding: 20px 0px 0px 80px;
+    height: 200px;
+}
+
+#my-image {
+    display: flex;
+    float: right;
+    margin: 0 10px 0 30px;
+    padding-top: 10px;
+    padding-right: 70px;
+    max-width: 400px;
+    z-index: 1;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 822px) {
+    .about {
+        display: block;
+
+    }
+}
+ 
+
