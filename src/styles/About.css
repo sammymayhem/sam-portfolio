@@ -4,7 +4,7 @@
 }
 
 .about {
-    display: flexbox;
+    display: block;
 }
 
 .about-title {
@@ -18,24 +18,29 @@
     padding-top: 10px;
     text-align: left;
     padding: 20px 0px 0px 80px;
-    height: 200px;
+}
+
+.about-text>p {
+    border: 5px solid var(--secondary);
+    padding: 23px;
 }
 
 #my-image {
     display: flex;
     float: right;
-    margin: 0 10px 0 30px;
-    padding-top: 10px;
-    padding-right: 70px;
-    max-width: 400px;
+    margin: 15px 80px 0 30px;
+    max-width: 300px;
+    max-height: 530px;
     z-index: 1;
     border-radius: 10%;
+    border: 5px dashed var(--secondary);
 }
 
 @media screen and (max-width: 822px) {
     .about {
         display: block;
-
+        align-items: center;
+        justify-content: center;
     }
 }
  
