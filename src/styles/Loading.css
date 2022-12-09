@@ -1,0 +1,182 @@
+:root {
+    --primary: #EFEAE0;
+    --secondary: #ae2012;
+  }
+
+body{
+	background: var(--primary);
+}
+
+.logobox{
+	width: 130px;
+	height: 125px;
+	position: relative;
+	margin: 140px auto 40px auto;
+	overflow: hidden;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+    color: var(--secondary);
+	font-family: Lobster;
+}
+.logobox .icon{
+	font-size: 78px;
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	left: 5px;
+	bottom: -1px;
+	text-align: center;
+	line-height: 125px;
+    transition: ease-out .5s;
+}
+
+.logobox .border{
+	position: absolute;
+	background-color: var(--secondary);
+	transition: all .3s ease-in;
+	-webkit-transition: all .15s ease-in;
+}
+.logobox .border.bottomleft{
+	height: 6px;
+	width: 0%;
+	bottom: 0px;
+	right: 50%;
+}
+.logobox .border.bottomright{
+	height: 6px;
+	width: 0%;
+	bottom: 0px;
+	left: 50%;
+}
+
+.logobox .border.left{
+	width: 6px;
+	height: 0%;
+	bottom: 0px;
+	left: 0px;
+}
+.logobox .border.right{
+	width: 6px;
+	height: 0%;
+	bottom: 0px;
+	right: 0px;
+}
+
+.logobox .border.topleft{
+	height: 6px;
+	width: 0%;
+	top: 0px;
+	left: 0%;
+}
+.logobox .border.topright{
+	height: 6px;
+	width: 0%;
+	top: 0px;
+	right: 0%;
+}
+.logobox{
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.logobox .border.left, .logobox .border.right{
+	-webkit-transition-delay: .30s;
+	transition-delay: .30s;
+}
+.logobox .border.bottomleft, .logobox .border.bottomright{
+	-webkit-transition-delay: .45s;
+	transition-delay: .45s;
+}
+.logobox .border.topleft, .logobox .border.topright{
+	-webkit-transition-delay: .15s;
+	transition-delay: .15s;
+}
+
+.logobox:hover{
+	width: 305px;
+	-webkit-transition-delay: .45s;
+	transition-delay: .45s;
+}
+.logobox:hover .border.bottomleft, .logobox:hover .border.bottomright{
+	width: 51%;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.logobox:hover .border.left, .logobox:hover .border.right{
+	height: 100%;
+	-webkit-transition-delay: .15s;
+	transition-delay: .15s;
+}
+.logobox:hover .border.topleft, .logobox:hover .border.topright{
+	width: 51%;
+	-webkit-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.logobox .text{
+	position: absolute;
+	left: 135px;
+	height: 125px;
+	line-height: 125px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.logobox:hover .hidden {
+    display: none;
+    transition: ease-out;
+    transition-delay: 1s;
+}
+
+.logobox:hover .fade-out {
+    cursor: pointer;
+    animation: fadeOut ease 1s;
+    -webkit-animation: fadeOut ease 1s;
+    -moz-animation: fadeOut ease 1s;
+    -o-animation: fadeOut ease 1s;
+    -ms-animation: fadeOut ease 1s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+  }
+
+}

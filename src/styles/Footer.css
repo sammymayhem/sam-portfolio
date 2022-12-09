@@ -2,11 +2,15 @@
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 90px;
     width: 100%;
+    background-color: var(--primary);
     color: var(--secondary) !important;
     text-align: center;
+    padding-top: 5px;
     padding-bottom: 20px;
     text-decoration: none;
+    clear: both;
 }
 
 .github,

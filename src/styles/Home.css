@@ -5,16 +5,16 @@
 
 #home-text-1 {
     font-size: 100px;
-    font-family: 'Lobster';
+    font-family: 'Lobster', sans-serif;
 }
 
 #home-text-2 {
     font-size: 60px;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #home-text-3 {
     font-size: 40px;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue', sans-serif;
 
 }
