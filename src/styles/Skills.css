@@ -1,0 +1,51 @@
+.skills {
+
+}
+
+.skill-title {
+    font-family: 'Lobster', sans-serif;
+    font-size: 100px;
+    padding: 20px 0px 0px 80px;
+}
+
+.fe-container {
+    width: 45vw;
+    padding-left: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: black !important;
+    float: left;
+}
+
+#fe-skill {
+    background-color: var(--primary) !important;
+}
+
+.fe-title {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+    color: var(--primary) !important;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+
+.be-container {
+    width: 45vw;
+    padding-right: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: black !important;
+    float: right;
+}
+
+#be-skill {
+    background-color: var(--primary) !important;
+}
+
+.be-title {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+    color: var(--primary) !important;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
