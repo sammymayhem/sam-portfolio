@@ -22,7 +22,7 @@ function App() {
       <Header2 />
         <div>
           <Routes>
-            <Route exact path='/' element={<Home />} />
+            <Route exact path='/sam-portfolio' element={<Home />} />
             <Route path='about' element={<About />} />
             <Route path='projects' element={<Projects />} />
             <Route path='skills' element={<Skills />} />
