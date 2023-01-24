@@ -7,24 +7,6 @@ import '../../styles/Projects.css';
 const Projects = () => {
     const projects = [
         {
-            title: 'SpaceX LaunchPad',
-            image: process.env.PUBLIC_URL + '/images/launchpad.png',
-            link: 'https://sammymayhem.github.io/launchpad-gp-1/',
-            repo: 'https://github.com/sammymayhem/launchpad-gp-1',
-        },
-        {
-            title: 'Augur',
-            image: process.env.PUBLIC_URL + '/images/augur.png',
-            link: 'https://augur-app.herokuapp.com/',
-            repo: 'https://github.com/sammymayhem/the-coin-flips',
-        },
-        {
-            title: 'Open Lobby',
-            image: process.env.PUBLIC_URL + '/images/open_lobby.png',
-            link: 'https://gitgud-open-lobby.herokuapp.com/',
-            repo: 'https://github.com/mrmrc182/esports-betting',
-        },
-        {
             title: 'README Generator',
             image: process.env.PUBLIC_URL + '/images/readme-gen.png',
             link: 'https://github.com/sammymayhem/positive-readme-generator',
@@ -58,9 +40,14 @@ const Projects = () => {
         );
     };
 
-    return <div className="grid">{projects.map(renderProject)}</div>;
-
-
+    return (
+        <div>
+            <div className='disclmaimer'>
+                <h2 className='proj-disc'>Some projects are not displayed due to the change in Heroku plans. New projects coming soon!</h2>
+            </div>
+            <div className="grid">{projects.map(renderProject)}</div>;
+        </div>
+    )
 }
 
 export default Projects;
