@@ -7,6 +7,12 @@ import '../../styles/Projects.css';
 const Projects = () => {
     const projects = [
         {
+            title: 'Simple Poke Search',
+            image: process.env.PUBLIC_URL + '/images/poke-search.png',
+            link: 'http://react-app-poke-search.s3-website-us-west-1.amazonaws.com/',
+            repo: 'https://github.com/sammymayhem/poke-search',
+        },
+        {
             title: 'README Generator',
             image: process.env.PUBLIC_URL + '/images/readme-gen.png',
             link: 'https://github.com/sammymayhem/positive-readme-generator',
