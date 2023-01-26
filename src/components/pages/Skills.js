@@ -17,7 +17,6 @@ export const Skills = () => {
                     <ListGroup.Item id='fe-skill' as="li">jQuery</ListGroup.Item>
                     <ListGroup.Item id='fe-skill' as="li">React.js</ListGroup.Item>
                     <ListGroup.Item id='fe-skill' as="li">Bootstrap</ListGroup.Item>
-                    <ListGroup.Item id='fe-skill' as="li">Tailwind CSS</ListGroup.Item>
                 </ListGroup>
             </div>
             <div className='be-container'>

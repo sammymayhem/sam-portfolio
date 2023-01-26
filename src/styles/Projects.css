@@ -22,7 +22,7 @@
 }
 
 svg {
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
     height: 5rem !important;
     width: 5rem !important;
 }
@@ -33,7 +33,7 @@ svg {
 }
 
 .title-text {
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 3rem !important;
 }
 
