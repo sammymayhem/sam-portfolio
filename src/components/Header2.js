@@ -6,7 +6,7 @@ function Header() {
     return (
         <div class='header'>
             <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
-                <Navbar.Brand class='link1' as={Link} to='/'>SW</Navbar.Brand>
+                <Navbar.Brand class='link1' as={Link} to='/sam-portfolio'>SW</Navbar.Brand>
                 <Container class='nav'>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
