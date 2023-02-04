@@ -22,7 +22,7 @@
 }
 
 svg {
-    color: var(--primary) !important;
+    color: var(--secondary) !important;
     height: 5rem !important;
     width: 5rem !important;
 }

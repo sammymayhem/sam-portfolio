@@ -16,6 +16,8 @@
 .about-container {
     display: flex;
     flex-direction: row;
+    padding-right: 80px;
+    padding-left: 40px;
 }
 
 .about-text {
@@ -27,6 +29,9 @@
 
 .about-text>p {
     border: 5px solid var(--secondary);
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: var(--primary);
     padding: 23px;
 }
 
