@@ -4,15 +4,15 @@ import sam1 from '../../images/sam-cropped.png'
 
 function About() {
     return (
-        <div class='about'>
+        <div className='about'>
             <div>
-                <h1 class='about-title'>About Me</h1>
+                <h1 className='about-title'>About Me</h1>
             </div>
             <div className='about-container'>
                 <div id="about-pic">
                     <img src={sam1} alt="" id="my-image" />
                 </div>
-                <div className="ms-auto" class="about-text">
+                <div className="ms-auto about-text">
                     <p>My name is Sam Wallace. Born and raised in San Diego, I have worn many hats in my
                         career.<br></br>
                         <br></br>
