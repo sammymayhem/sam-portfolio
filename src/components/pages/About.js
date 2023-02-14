@@ -1,5 +1,6 @@
 import '../../styles/About.css';
-import sam from '../../images/Sam1.jpg';
+// import sam from '../../images/Sam1.jpg';
+import sam1 from '../../images/sam-cropped.png'
 
 function About() {
     return (
@@ -9,7 +10,7 @@ function About() {
             </div>
             <div className='about-container'>
                 <div id="about-pic">
-                    <img src={sam} alt="" id="my-image" />
+                    <img src={sam1} alt="" id="my-image" />
                 </div>
                 <div className="ms-auto" class="about-text">
                     <p>My name is Sam Wallace. Born and raised in San Diego, I have worn many hats in my
