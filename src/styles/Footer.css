@@ -20,7 +20,7 @@
 }
 
 svg {
-    color: var(--secondary);
+    color: var(--secondary) !important;
     height: 50px;
     width: 50px;
 }

@@ -6,18 +6,21 @@
     font-family: 'Lobster', sans-serif;
     font-size: 100px;
     padding: 20px 0px 0px 80px;
+    color: var(--secondary);
 }
 
 .fe-container {
     width: 45vw;
     padding-left: 80px;
     font-size: 20px;
-    color: black !important;
+    color: var(--secondary) !important;
     float: left;
 }
 
 #fe-skill {
     background-color: var(--primary) !important;
+    color: var(--secondary);
+    border-color: var(--secondary) !important;
 }
 
 .fe-title {
@@ -33,12 +36,14 @@
     padding-right: 80px;
     font-family: sans-serif;
     font-size: 20px;
-    color: black !important;
+    color: var(--secondary) !important;
     float: right;
 }
 
 #be-skill {
     background-color: var(--primary) !important;
+    color: var(--secondary);
+    border-color: var(--secondary) !important;
 }
 
 .be-title {
