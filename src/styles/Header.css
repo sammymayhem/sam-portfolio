@@ -41,14 +41,19 @@
 }
 
 .navbar-brand {
-    font-size: 40px !important;
-}
-
-.navbar-brand {
     padding: 10px 20px;
     color: var(--primary);
-    font-size: 20px;
     font-family: 'Lobster' !important;
     border-style: dashed;
     margin-left: 10px !important;
+    font-size: 40px !important;
+}
+
+.navbar-brand:hover {
+    color: var(--primary) !important;
+}
+
+.navbar-dark {
+    --bs-navbar-toggler-border-color: var(--primary) !important;
+    --bs-navbar-brand-hover-color: var(--primary);
 }
