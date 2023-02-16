@@ -6,26 +6,25 @@
     font-family: 'Lobster', sans-serif;
     font-size: 100px;
     padding: 20px 0px 0px 80px;
-    color: var(--secondary);
+    color: var(--gray);
 }
 
 .fe-container {
     width: 45vw;
     padding-left: 80px;
     font-size: 20px;
-    color: var(--secondary) !important;
     float: left;
 }
 
 #fe-skill {
     background-color: var(--primary) !important;
-    color: var(--secondary);
-    border-color: var(--secondary) !important;
+    color: var(--gray);
+    border-color: var(--gray);
 }
 
 .fe-title {
     background-color: var(--secondary) !important;
-    border-color: var(--secondary) !important;
+    border-color: var(--gray) !important;
     color: var(--primary) !important;
     font-family: 'Lobster', sans-serif;
     font-size: 30px;
@@ -36,19 +35,18 @@
     padding-right: 80px;
     font-family: sans-serif;
     font-size: 20px;
-    color: var(--secondary) !important;
     float: right;
 }
 
 #be-skill {
     background-color: var(--primary) !important;
-    color: var(--secondary);
-    border-color: var(--secondary) !important;
+    color: var(--gray);
+    border-color: var(--gray) !important;
 }
 
 .be-title {
     background-color: var(--secondary) !important;
-    border-color: var(--secondary) !important;
+    border-color: var(--gray) !important;
     color: var(--primary) !important;
     font-family: 'Lobster', sans-serif;
     font-size: 30px;

@@ -10,7 +10,7 @@
 
 .navbar {
     background-color: var(--secondary) !important;
-    box-shadow: 1px 10px 8px var(--primary);
+    box-shadow: 1px 10px 8px gray;
     flex-wrap: inherit;
 }
 

@@ -1,11 +1,7 @@
 :root {
-    --primary: #37323e;
-    --secondary: #02c39a;
-
-    --bg: #003049;
-    --light: #6fffe9;
-    --less-light: #deb841;
-    --less-dark: #37323e;
+    --primary: #EFEAE0;
+    --secondary: #ae2012;
+    --gray: #252422;
 }
 
 .about {
@@ -16,7 +12,7 @@
     font-family: 'Lobster';
     font-size: 100px;
     padding: 20px 0px 0px 80px;
-    color: var(--secondary);
+    color: var(--gray);
 }
 
 .about-container {
@@ -34,7 +30,7 @@
 }
 
 .about-text>p {
-    border: 5px dashed var(--primary);
+    border: 5px dashed var(--gray);
     border-radius: 10px;
     background-color: var(--secondary);
     color: var(--primary);
@@ -49,7 +45,7 @@
     max-height: 530px;
     z-index: 1;
     border-radius: 10%;
-    border: 5px dashed var(--primary);
+    border: 5px dashed var(--gray);
     background-color: var(--secondary);
 }
 

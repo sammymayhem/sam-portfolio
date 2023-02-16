@@ -39,7 +39,7 @@ svg {
 
 .proj-overlay:hover .show-proj {
     display: block;
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .proj-overlay:hover {
@@ -54,5 +54,5 @@ svg {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     padding-top: 10px;
-    color: var(--secondary);
+    color: black;
 }
