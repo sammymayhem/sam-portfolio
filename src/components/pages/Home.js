@@ -15,7 +15,7 @@ function Home() {
                 <motion.div
                     initial={{ opacity: 0, x: '-100vh' }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: .5, type: 'spring', duaration: 2 }}>
+                    transition={{ delay: .5, type: 'spring', duaration: 4 }}>
                     <h2 id='home-text-2'> A Front End Web Developer kinda guy.</h2>
                 </motion.div>
             </div>
@@ -23,19 +23,19 @@ function Home() {
                 <motion.div
                         initial={{ opacity: 0, x: '-100vh' }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 1, type: 'spring', duaration: 2 }}>
+                        transition={{ delay: .75, duaration: 2 }}>
                             <div className='red-bar box'></div>
                 </motion.div>
                 <motion.div
                         initial={{ opacity: 0, x: '-100vh' }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 1.5, type: 'spring', duaration: 2 }}>
+                        transition={{ delay: 1, duaration: 2 }}>
                             <div className='orange-bar box'></div>
                 </motion.div>
                 <motion.div
                         initial={{ opacity: 0, x: '-100vh' }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 2, type: 'spring', duaration: 2 }}>
+                        transition={{ delay: 1.25, duaration: 2 }}>
                             <div className='yellow-bar box'></div>
                 </motion.div>
 
