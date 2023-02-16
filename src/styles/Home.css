@@ -1,4 +1,9 @@
 .home-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
     width: 55%;
 }
 
@@ -59,4 +64,15 @@
     padding-top: 20px;
     box-shadow: 1px 10px 8px gray;
 }
+
+.right {
+    width: 45%;
+
+}
+
+.sam-pic {
+    width: 90%;
+}
+
+
 
