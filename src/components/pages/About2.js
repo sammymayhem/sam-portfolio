@@ -1,18 +1,14 @@
-import '../../styles/About.css';
-// import sam from '../../images/Sam1.jpg';
-import sam1 from '../../images/sam-cropped.png'
+import '../../styles/About2.css';
+import sam from '../../images/sam-cropped.png';
 
-function About() {
+function About2() {
     return (
         <div className='about'>
-            <div>
+            <div className='about-title-cont'>
                 <h1 className='about-title'>About Me</h1>
             </div>
-            <div className='about-container'>
-                <div className="about-pic">
-                    <img src={sam1} alt="" id="my-image" />
-                </div>
-                <div className="ms-auto about-text">
+            <div className='about-cont'>
+                <div className='left'>
                     <p>My name is Sam Wallace. Born and raised in San Diego, I have worn many hats in my
                         career.<br></br>
                         <br></br>
@@ -23,9 +19,14 @@ function About() {
                         <br></br>
                         I hope you enjoy your time on my portfolio page!</p>
                 </div>
+                <div className='right'>
+                    <div className='about-pic-cont'>
+                        <img src={sam} alt='sam-pic' className='about-image'></img>
+                    </div>
+                </div>
             </div>
         </div>
     );
 }
 
-export default About;
+export default About2;

@@ -1,0 +1,32 @@
+.about-title {
+    font-family: 'Lobster';
+    font-size: 100px;
+    padding: 20px 0px 0px 80px;
+    color: var(--gray);
+}
+
+/* .about {
+    display: flex;
+    flex-direction: row;
+} */
+
+.about-title-cont {
+    display: block;
+}
+
+.about-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    padding-top: 60px;
+    margin-left: 80px;
+}
+
+.about-image {
+    width: 55%;
+    align-items: center;
+    float: right;
+    margin-right: 80px;
+}
