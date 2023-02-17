@@ -10,7 +10,8 @@ import './App.css';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Projects from './components/pages/Projects';
+// import Projects from './components/pages/Projects';
+import Projects2 from './components/pages/Projects2';
 import Skills from './components/pages/Skills';
 
 import Header2 from './components/Header2';
@@ -24,7 +25,7 @@ function App() {
           <Routes>
             <Route exact path='/sam-portfolio' element={<Home />} />
             <Route path='about' element={<About />} />
-            <Route path='projects' element={<Projects />} />
+            <Route path='projects' element={<Projects2 />} />
             <Route path='skills' element={<Skills />} />
           </Routes>
         </div>
