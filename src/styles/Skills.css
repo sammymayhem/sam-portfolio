@@ -24,7 +24,7 @@
 
 .fe-title {
     background-color: var(--secondary) !important;
-    border-color: var(--gray) !important;
+    border: 1px solid black !important;
     color: var(--primary) !important;
     font-family: 'Lobster', sans-serif;
     font-size: 30px;
@@ -46,7 +46,7 @@
 
 .be-title {
     background-color: var(--secondary) !important;
-    border-color: var(--gray) !important;
+    border: 1px solid black !important;
     color: var(--primary) !important;
     font-family: 'Lobster', sans-serif;
     font-size: 30px;

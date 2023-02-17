@@ -20,8 +20,14 @@
 }
 
 .left {
-    padding-top: 60px;
+    padding-top: 80px;
     margin-left: 80px;
+    width: 65%;
+    border-bottom: 5px solid var(--secondary);
+}
+
+.right {
+    width: 50%;
 }
 
 .about-image {
@@ -29,4 +35,8 @@
     align-items: center;
     float: right;
     margin-right: 80px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: var(--secondary);
 }
+

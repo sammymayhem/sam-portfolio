@@ -1,5 +1,6 @@
 import '../../styles/About2.css';
 import sam from '../../images/sam-cropped.png';
+import { motion } from 'framer-motion';
 
 function About2() {
     return (
