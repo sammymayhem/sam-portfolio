@@ -9,7 +9,7 @@ function About2() {
                 <h1 className='about-title'>About Me</h1>
             </div>
             <div className='about-cont'>
-                <div className='left'>
+                <div className='about-left'>
                     <p>My name is Sam Wallace. Born and raised in San Diego, I have worn many hats in my
                         career.<br></br>
                         <br></br>
@@ -20,7 +20,7 @@ function About2() {
                         <br></br>
                         I hope you enjoy your time on my portfolio page!</p>
                 </div>
-                <div className='right'>
+                <div className='about-right'>
                     <div className='about-pic-cont'>
                         <img src={sam} alt='sam-pic' className='about-image'></img>
                     </div>

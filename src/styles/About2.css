@@ -19,14 +19,14 @@
     flex-direction: row;
 }
 
-.left {
+.about-left {
     padding-top: 80px;
     margin-left: 80px;
     width: 65%;
     border-bottom: 5px solid var(--secondary);
 }
 
-.right {
+.about-right {
     width: 50%;
 }
 

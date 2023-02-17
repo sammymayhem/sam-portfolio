@@ -5,7 +5,7 @@ import '../../styles/Home.css';
 function Home() {
     return (
         <div className='home-cont'>
-            <div className='left'>
+            <div className='home-left'>
                 <div id='home-text'>
                     <motion.div
                         initial={{ opacity: 0, x: '-100vh' }}
@@ -41,7 +41,7 @@ function Home() {
                     </motion.div>
                 </div>
             </div>
-            <div className='right'>
+            <div className='home-right'>
                 <motion.div
                     initial={{ opacity: 0, y: '-100vh' }}
                     animate={{ opacity: 1, y: 0 }}

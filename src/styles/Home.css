@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 
-.left {
+.home-left {
     width: 55%;
 }
 
@@ -65,7 +65,7 @@
     box-shadow: 1px 10px 8px gray;
 }
 
-.right {
+.home-right {
     width: 45%;
 
 }
