@@ -7,6 +7,13 @@ import '../../styles/Projects2.css';
 const Projects = () => {
     const projects = [
         {
+            title: 'The Many Faces of Pickles',
+            image: process.env.PUBLIC_URL + '/images/pickle-faces.png',
+            description: 'Welcome pickle enthusiasts and novices! The aim of my site is to show you the many joys that can come from the humble pickle. From nutritoinal facts to fun recipes, come take a look at all the ways you can dress up or dress down a pickle!',
+            link: 'http://pickle-faces.s3-website-us-west-1.amazonaws.com/',
+            repo: 'https://github.com/sammymayhem/pickle-faces',
+        },
+        {
             title: 'Simple Poke Search',
             image: process.env.PUBLIC_URL + '/images/poke-search.png',
             description: 'PokeSearch is a simple search engine. You can search for a pokemon and return their type. You can search for a move and find out information about that move for strategic advantages. You can also search any item and return some useful information reagarding said item. All in the persuit to help pokemon trainers when they just need quick simple information. This is a work in progress and in its simplest form at this time. I am hoping to improve on the design of the page as well as add more features!',
@@ -27,14 +34,6 @@ const Projects = () => {
             link: 'https://github.com/sammymayhem/facespace-social-media-api',
             repo: 'https://github.com/sammymayhem/facespace-social-media-api',
         },
-        {
-            title: 'Team Generator',
-            image: process.env.PUBLIC_URL + '/images/team-gen.png',
-            description: 'Welcome to the Team Profile Generator Assembleeeee! Where you can assemble your team of earths mightiest office mates. I created this program to give a fun twist on managing your team. You will be prompted to add a Captain (or Manager) to your team and then add as many super engineers or agent interns that you need to keep track of. This project did not come without its challenges. From getting the cards to show, to getting the questions to cycle, this app really kept me on my toes. I learned quite a bit about template literals and the use of functions with the inquirer prompt. I mapped out many ways that this project could have been achieved, but landed on the function method as it is one I have used before and seemed more comfortable for me.',
-            link: 'https://github.com/sammymayhem/team-profile-gen-assemble',
-            repo: 'https://github.com/sammymayhem/team-profile-gen-assemble',
-        },
-
     ]
 
     const renderProject = (projects, index) => {
