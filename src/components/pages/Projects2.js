@@ -68,9 +68,6 @@ const Projects = () => {
             <div>
                 <h1 className='proj-title'>Projects</h1>
             </div>
-            <div className='disclmaimer'>
-                <h2 className='proj-disc'>Some projects are not displayed due to the change in Heroku plans. New projects coming soon!</h2>
-            </div>
             <div className="grid">{projects.map(renderProject)}</div>;
         </div>
     )

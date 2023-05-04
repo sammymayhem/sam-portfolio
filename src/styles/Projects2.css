@@ -57,10 +57,6 @@ svg {
     height: 20rem;
 }
 
-.disclaimer {
-    display: flex;
-}
-
 .proj-disc {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
