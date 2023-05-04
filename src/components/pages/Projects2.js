@@ -7,6 +7,13 @@ import '../../styles/Projects2.css';
 const Projects = () => {
     const projects = [
         {
+            title: 'Airbnb Clone',
+            image: process.env.PUBLIC_URL + '/images/airbnb-clone.png',
+            description: 'This was my introduction to NextJS 13, Typescript and many of the packages that go along with making something like Airbnb function. A full description of what went into this project can be found in the README file, found  in the repo.',
+            link: 'https://prop-rental-example.vercel.app/',
+            repo: 'https://github.com/sammymayhem/airbnb-clone'
+        },
+        {
             title: 'The Many Faces of Pickles',
             image: process.env.PUBLIC_URL + '/images/pickle-faces.png',
             description: 'Welcome pickle enthusiasts and novices! The aim of my site is to show you the many joys that can come from the humble pickle. From nutritoinal facts to fun recipes, come take a look at all the ways you can dress up or dress down a pickle!',

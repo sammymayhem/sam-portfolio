@@ -14,7 +14,7 @@ function Header() {
                             <Link className='link2' id='nav-link' as={Link} to='/about'>About</Link>
                             <Link className='link3' id='nav-link' as={Link} to='/projects'>Projects</Link>
                             <Link className='link4' id='nav-link' as={Link} to='/skills'>Skills</Link>
-                            <a id='nav-link' href='https://www.dropbox.com/s/f7x00pqleeuwz51/Sam%20Wallace%20Resume.pdf?dl=0' target='_blank' rel='noopener noreferrer'>Resume</a>
+                            <a id='nav-link' href='https://www.dropbox.com/s/he2kbi1579vrmvw/Sam%20Wallace%20Resume.pdf?dl=0' target='_blank' rel='noopener noreferrer'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
