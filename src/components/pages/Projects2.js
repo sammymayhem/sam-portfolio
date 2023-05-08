@@ -56,8 +56,8 @@ const Projects = () => {
                     <p>{projects.description}</p>
                 </div>
                 <div className='proj-links'>
-                    <p className="show-proj web-link"><a href={projects.link}><FaHome /></a></p>
-                    <p className="show-proj git-link"><a href={projects.repo}><FaGithub /></a></p>
+                    <p className="show-proj web-link"><a href={projects.link} target='_blank'><FaHome /></a></p>
+                    <p className="show-proj git-link"><a href={projects.repo} target='_blank'><FaGithub /></a></p>
                 </div>
             </div>
         );
